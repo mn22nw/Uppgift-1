@@ -1,0 +1,7 @@
+C:\Users\Mia\Dropbox\STUDIER H13\Interaktiv Mjukvaruutveckling\testaruppgift\tri\bin\Debug\tri.dll
+C:\Users\Mia\Dropbox\STUDIER H13\Interaktiv Mjukvaruutveckling\testaruppgift\tri\bin\Debug\tri.pdb
+C:\Users\Mia\Dropbox\STUDIER H13\Interaktiv Mjukvaruutveckling\testaruppgift\tri\bin\Debug\testaruppgift.exe
+C:\Users\Mia\Dropbox\STUDIER H13\Interaktiv Mjukvaruutveckling\testaruppgift\tri\bin\Debug\testaruppgift.pdb
+C:\Users\Mia\Dropbox\STUDIER H13\Interaktiv Mjukvaruutveckling\testaruppgift\tri\obj\Debug\Testtri.csprojResolveAssemblyReference.cache
+C:\Users\Mia\Dropbox\STUDIER H13\Interaktiv Mjukvaruutveckling\testaruppgift\tri\obj\Debug\tri.dll
+C:\Users\Mia\Dropbox\STUDIER H13\Interaktiv Mjukvaruutveckling\testaruppgift\tri\obj\Debug\tri.pdb
