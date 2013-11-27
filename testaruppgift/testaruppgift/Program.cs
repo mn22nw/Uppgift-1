@@ -14,12 +14,16 @@ namespace testaruppgift
                 {try
             {
                          double value5 = Math.Pow(2, 3);
-                    Console.Write("Ange triangelns mått för varje sida, separerat med mellanslag: ");
-                    string input = Console.ReadLine();
-                    string[] inputs = input.Split(' ');
+                   // Console.Write("Ange triangelns mått för varje sida, separerat med mellanslag: ");
+                  //  string input = Console.ReadLine();
+                  //  string[] inputs = input.Split(' ');
+                         Point point4 = new Point(2, 0);
+                         Point point5 = new Point(3, 5);
+                         Point point6 = new Point(2, 0);
                     try
                     {
-                        Triangle t = new Triangle(double.Parse(inputs[0]), double.Parse(inputs[1]), double.Parse(inputs[2]));
+                        Triangle t = new Triangle(point4, point5, point6);
+                       // Triangle t = new Triangle(double.Parse(inputs[0]), double.Parse(inputs[1]), double.Parse(inputs[2]));
                         Console.WriteLine("\nRESULTAT\n___________________\n");
                         Console.BackgroundColor = ConsoleColor.DarkGreen;
                         Console.ForegroundColor = ConsoleColor.White;
