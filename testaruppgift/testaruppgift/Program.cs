@@ -10,8 +10,6 @@ namespace testaruppgift
     {
         static void Main(string[] args)
         {
-            do
-            {
                 try
                 {
                     double value5 = Math.Pow(2, 3);
@@ -49,8 +47,6 @@ namespace testaruppgift
                     Console.WriteLine("Det har blivit något fel, Försök igen!");
                     Console.ResetColor();
                 }
-            }
-            while (true);
         }
 
     }

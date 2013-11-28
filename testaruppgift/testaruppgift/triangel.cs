@@ -12,7 +12,6 @@ public struct Point {
   }
 }
 
-
 public class Triangle {
      double[] sides;
      private double _side1;
@@ -83,12 +82,10 @@ public class Triangle {
 
   public Triangle(double[] s) {
     sides = new double[s.Length];
-    /*for(int i=0;i<s.Length;i++)
-      sides[i]=s[i];*/
+    /*for(int i=0;i<s.Length;i++) sides[i]=s[i];*/
     Side1 = sides[0];
     Side2 = sides[1];
     Side3 = sides[2];
-
 
   } 
 
@@ -98,22 +95,6 @@ public class Triangle {
     sides[0] = Math.Sqrt(Math.Pow((double)(b.x - a.x), 2.0) + Math.Pow((double)(b.y - a.y), 2.0)); 
     sides[1] = Math.Sqrt(Math.Pow((double)(b.x - c.x), 2.0) + Math.Pow((double)(b.y - c.y), 2.0)); 
     sides[2] = Math.Sqrt(Math.Pow((double)(c.x - a.x), 2.0) + Math.Pow((double)(c.y - a.y), 2.0));
-
-  
-      
-
-      /*                        //TALET SOM SKA SQUARAS//
-          sides[0] = Math.Sqrt(Math.Pow((double)(b.0 - a.1), 2.0) + Math.Pow((double)(b.5 - a.0), 2.0));   
-          sides[1] = Math.Sqrt(Math.Pow((double)(b.0 - c.1), 2.0) + Math.Pow((double)(b.0 - a.1), 2.0)); 
-          sides[2] = Math.Sqrt(Math.Pow((double)(c.1 - a.1), 2.0) + Math.Pow((double)(c.1 - a.1), 2.0));
-          
-        rotenur (1 + 25) = 5,099019
-        rotenur (1 + 1) =  2
-        (0 + 0) = 0 
-       
-       
- 
-       */
   }
 
   public Triangle(Point[] s) {

@@ -39,7 +39,7 @@ public class Triangle {
   }
 
   private int uniqueSides() {
-    return sides.Distinct<double>().Count();
+    return sides.Distinct<double>().Count(); //distinct tar bort dubbletter/ex lika dana sidor
   }
 
   public bool isScalene() {
